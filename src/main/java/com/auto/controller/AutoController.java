@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 
 @RestController
 public class AutoController {
-    @GetMapping(value = "/hi/{name}", produces = MediaType.TEXT_PLAIN_VALUE)
+    @GetMapping(value = "/greet/{name}", produces = MediaType.TEXT_PLAIN_VALUE)
     public String dummyAPI(@PathVariable(name = "name") String userName) {
         return "Hi.. " + userName + "!.. Welcome to the automobile application";
     }
