@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8090
-ADD target/Automobile.war Automobile.war
-ENTRYPOINT ["java","-jar","Automobile.war"]
+ADD target/automobile.war automobile.war
+ENTRYPOINT ["java","-jar","automobile.war"]

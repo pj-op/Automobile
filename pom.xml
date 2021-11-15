@@ -38,7 +38,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>Automobile</finalName>
+        <finalName>automobile</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
